@@ -4,3 +4,6 @@
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
 	url = http://github.com/digitaltoad/vim-jade
+[submodule "bundle/monokai"]
+	path = bundle/monokai
+	url = http://github.com/lsdr/monokai
