@@ -7,3 +7,6 @@
 [submodule "bundle/monokai"]
 	path = bundle/monokai
 	url = http://github.com/lsdr/monokai
+[submodule "bundle/vaxe"]
+	path = bundle/vaxe
+	url = https://github.com/jdonaldson/vaxe
