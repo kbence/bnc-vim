@@ -40,6 +40,9 @@ endif
 :map <F12> :q<CR>
 :imap <F12> <ESC>:q<CR>
 
+:map <F9> :TagbarToggle<CR>
+:imap <F9> <ESC>:TagbarToggle<CR>a
+
 call pathogen#infect()
 call pathogen#helptags()
 
