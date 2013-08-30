@@ -18,7 +18,7 @@ set encoding=utf8
 
 au CursorHoldI * stopinsert
 
-set mouse=n
+set mouse+=a
 set ttymouse=xterm2
 
 if $COLORTERM == "gnome-terminal"
@@ -26,21 +26,17 @@ if $COLORTERM == "gnome-terminal"
 endif
 
 :map <F2> :w<CR>
-:imap <F2> <ESC>:w<CR>a
-
 :map <F5> :tabprev<CR>
-:imap <F5> <ESC>:tabprev<CR>a
-
 :map <F6> :tabnext<CR>
-:imap <F6> <ESC>:tabnext<CR>a
-
 :map <F8> :tabnew<CR>
-:imap <F8> <ESC>:tabnew<CR>a
-
 :map <F12> :q<CR>
-:imap <F12> <ESC>:q<CR>
-
 :map <F9> :TagbarToggle<CR>
+
+:imap <F2> <ESC>:w<CR>a
+:imap <F5> <ESC>:tabprev<CR>a
+:imap <F6> <ESC>:tabnext<CR>a
+:imap <F8> <ESC>:tabnew<CR>a
+:imap <F12> <ESC>:q<CR>
 :imap <F9> <ESC>:TagbarToggle<CR>a
 
 call pathogen#infect()
