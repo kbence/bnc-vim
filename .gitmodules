@@ -1,6 +1,3 @@
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = http://github.com/Valloric/YouCompleteMe
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
 	url = http://github.com/digitaltoad/vim-jade
