@@ -32,6 +32,7 @@ endif
 :map <F8> :tabnew<CR>
 :map <F12> :q<CR>
 :map <F9> :TagbarToggle<CR>
+:map <F10> :Unite file buffer<CR>
 
 :imap <F2> <ESC>:w<CR>a
 :imap <F5> <ESC>:tabprev<CR>a
@@ -39,6 +40,7 @@ endif
 :imap <F8> <ESC>:tabnew<CR>a
 :imap <F12> <ESC>:q<CR>
 :imap <F9> <ESC>:TagbarToggle<CR>a
+:map <F10> <ESC>:Unite file buffer<CR>
 
 call pathogen#infect()
 call pathogen#helptags()
