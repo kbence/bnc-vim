@@ -20,6 +20,7 @@ au CursorHoldI * stopinsert
 
 set mouse+=a
 set ttymouse=xterm2
+set laststatus=2
 
 if $COLORTERM == "gnome-terminal"
   set t_Co=256
