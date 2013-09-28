@@ -3,6 +3,8 @@ set smarttab
 set cindent
 set ts=4
 set sw=4
+set expandtab
+set scrolloff=5
 
 set number
 set nowrap
@@ -10,12 +12,8 @@ syntax on
 
 set encoding=utf8
 
-"augroup CursorLine
-"  au!
-"  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
-"  au WinLeave * setlocal nocursorline
-"augroup END
-
+au FileType * set expandtab
+au FileType make set noexpandtab
 au CursorHoldI * stopinsert
 
 set mouse+=a
