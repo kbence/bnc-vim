@@ -46,3 +46,8 @@ endif
 call pathogen#infect()
 call pathogen#helptags()
 
+if has('gui_running')
+  color monokai
+  set guifont=DejaVu\ Sans\ Mono\ for\ Powerline
+endif
+
