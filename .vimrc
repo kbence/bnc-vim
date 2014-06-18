@@ -5,6 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set scrolloff=5
+set showcmd
 
 set listchars=tab:>-,trail:.,
 set list
